@@ -12,15 +12,16 @@ KREWES = {
                  'Taejoon','Kevin', 'Jude','Sophie','Henry','Coby','Mandfred','Leia',
                  'Ahmed','Winston']
     }
-index = random.randint(0,2)
+index = input('Enter either orpheus, rex, or endymion:  ')
 
-if (index == 0):
+
+if (index == 'orpheus'):
     print(KREWES['orpheus'][random.randint(0,len(KREWES['orpheus']) -1)])
     
-if (index == 1):
+if (index == 'rex'):
     print(KREWES['rex'][random.randint(0,len(KREWES['rex']) -1)])
     
-if (index == 2):
+if (index == 'endymion'):
     print(KREWES['endymion'][random.randint(0,len(KREWES['endymion']) -1)])
 
 
